@@ -32,7 +32,6 @@ class AplikasiBuku:
         print(f"{buku_terbanyak['judul']} ({buku_terbanyak['halaman']} halaman)")
 
 
-# menjalankan program
 if __name__ == "__main__":
     app = AplikasiBuku()
     app.jalankan()
