@@ -10,7 +10,6 @@ class InputBuku:
             print(f"\nBuku ke-{i+1}")
             judul = input("Masukkan judul buku: ")
 
-            # validasi angka
             while True:
                 try:
                     halaman = int(input("Masukkan jumlah halaman: "))
