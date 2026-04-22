@@ -9,7 +9,7 @@ class AplikasiBuku:
         self.proses = ProsesBuku()
 
     def jalankan(self):
-        print("===== APLIKASI DATA BUKU SEDERHANA (OOP) =====")
+        print("===== APLIKASI DATA BUKU SEDERHANA =====")
 
         nama = self.input.input_nama_petugas()
         daftar_buku = self.input.input_data_buku()
